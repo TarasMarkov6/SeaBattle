@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>SeaBattle</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height,initial-scale=1.0">
+    <link href="../style/game_page.css" rel="stylesheet">
+    <link href="../style/cursor_style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="aside" id="playerAside">
+            <div class="name" id="playerName">
+            </div>
+            <div class="ships">
+            </div>
+        </div>
+        <div class="submain">
+            <div style="height: 15%; width: 37%; display: flex;">
+            </div>
+            <div style="height: 15%; width: 38%; display: flex;">
+            </div>
+            <div id="player">
+            </div>
+            <div id="rival">
+            </div>        
+        </div>
+        <div class="aside" id="rivalAside">
+            <div class="name">
+                BattleBot
+            </div>
+            <div class="ships">
+
+            </div>
+        </div>
+        <div class="main_mode">
+            <div class="icon_mode">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="text_mode">
+            </div>
+        </div>
+    </div>
+    <div class="target_main">
+        <div class="cross first_quarter">
+        </div>
+        <div class="cross second_quarter">
+        </div>
+        <div class="cross third_quarter">
+        </div>
+        <div class="cross forth_quarter">
+        </div>
+        <div class="small_circle">
+        </div>
+        <div class="big_circle">
+        </div>
+        <div class="rotated">
+            <div class="first_third">
+                <div class="rotated_inner">
+                    <div class="arc">
+                    </div>
+                </div>
+            </div>
+            <div class="second_third">
+                <div class="rotated_inner">
+                    <div class="arc">
+                    </div>
+                </div>
+            </div>
+            <div class="third_third">
+                <div class="rotated_inner">
+                    <div class="arc">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/game_hints.js"></script>
+    <script src="../js/mode_handler.js"></script>
+	<script src="../js/battlefield_creater.js"></script>
+    <script src="../js/ships_creater.js"></script>
+    <script src="../js/storage_handler.js"></script>
+    <script src="../js/cursor_handler.js"></script>
+</body>
+</html>
